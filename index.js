@@ -47,7 +47,7 @@ client.on('message', message => {
       console.log(hasThank)
     } 
   } else if(message.content == "!points" && message.author.username !="ScampyChap"){
-    var pointMessage = "You have " + pMap.get(message.author.username) + " patriot points, maggot! Keep thanking Chappy for his service!";
+    var pointMessage = "You have " + pMap.get(message.author.username) + " points! Keep giving thanks!";
     channel.send(pointMessage);
   } else if(message.content == "!points all"){
     var leaderBoardMessage = "LEADER BOARD:" +'\n';
